@@ -1,0 +1,921 @@
+/* =====================
+   GLOBAL
+===================== */
+body.light-mode{
+background:#f4f4f4!important;
+color:#111!important;
+}
+
+.theme-toggle{
+background:#1b1b1b;
+border:1px solid #333;
+color:#fff;
+width:22px;
+height:22px;
+border-radius:50%;
+font-size:16px;
+cursor:pointer;
+}
+
+body.light-mode .theme-toggle{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .author-name,
+body.light-mode .ecu-file-name{
+color:#111!important;
+}
+
+body.light-mode .author-date,
+body.light-mode .ecu-file-size{
+color:#666!important;
+}
+
+body.light-mode .comment-text{
+color:#333!important;
+}
+
+body.light-mode .ecu-file-box{
+background:#fff!important;
+border:1px solid #ddd!important;
+}
+
+
+/* =====================
+   HOME
+===================== */
+
+/* Header & kartu utama */
+body.light-mode header,
+body.light-mode .post-card,
+body.light-mode .info-card{
+background:#fff!important;
+color:#111!important;
+}
+
+body.light-mode header{
+box-shadow:0 0 14px rgba(192,0,0,.22)!important;
+}
+
+body.light-mode .logo,
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode .section-title{
+color:#c00000!important;
+}
+
+body.light-mode .hero p,
+body.light-mode .post-content p,
+body.light-mode .info-card p{
+color:#333!important;
+}
+
+/* Statistik hero */
+body.light-mode .hero-stats div{
+background:#fff!important;
+border:1px solid rgba(192,0,0,.45)!important;
+color:#b00000!important;
+box-shadow:0 0 12px rgba(255,0,0,.15)!important;
+font-weight:bold;
+}
+
+/* Side menu */
+body.light-mode .side-menu{
+background:#fff!important;
+color:#111!important;
+border-left:2px solid #c00000!important;
+}
+
+body.light-mode .side-header{
+background:#fff!important;
+border-bottom:1px solid #eee!important;
+}
+
+body.light-mode .side-header h2{
+color:#c00000!important;
+}
+
+body.light-mode .close-btn{
+color:#111!important;
+}
+
+/* Link menu utama */
+body.light-mode .side-body > a{
+background:#f3f3f3!important;
+color:#222!important;
+border-left:3px solid transparent!important;
+}
+
+body.light-mode .side-body > a:hover{
+background:#ffecec!important;
+border-left:3px solid #c00000!important;
+color:#c00000!important;
+}
+
+/* Kontak kecil bawah menu - jangan ikut background link menu */
+body.light-mode .menu-contact-mini,
+body.light-mode .menu-contact-mini a,
+body.light-mode .menu-mini-email{
+background:transparent!important;
+background-color:transparent!important;
+border:none!important;
+box-shadow:none!important;
+}
+
+body.light-mode .menu-mini-email{
+display:block!important;
+padding:0!important;
+margin:2px 0!important;
+color:#006fd6!important;
+font-size:11px!important;
+line-height:1.4!important;
+text-align:center!important;
+text-decoration:none!important;
+border-radius:0!important;
+}
+
+/* Modal login/register */
+body.light-mode .modal.active{
+background:rgba(0,0,0,.55)!important;
+backdrop-filter:blur(7px)!important;
+-webkit-backdrop-filter:blur(7px)!important;
+}
+
+body.light-mode .modal-box{
+background:#fff!important;
+color:#111!important;
+border:1px solid #c00000!important;
+box-shadow:0 0 25px rgba(0,0,0,.25)!important;
+}
+
+body.light-mode .modal-box h2{
+color:#c00000!important;
+}
+
+body.light-mode .modal-box input{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .modal-box input::placeholder{
+color:#777!important;
+}
+
+body.light-mode .modal-close{
+color:#111!important;
+}
+
+body.light-mode .forgot-info,
+body.light-mode .forgot-info1{
+color:#666!important;
+}
+/* =====================
+   REPAIR
+===================== */
+body.light-mode .navbar{
+background:#fff!important;
+box-shadow:0 0 14px rgba(192,0,0,.25)!important;
+}
+
+body.light-mode .post,
+body.light-mode .content,
+body.light-mode .comment-section,
+body.light-mode .comment-item{
+background:#fff!important;
+color:#111!important;
+border-color:#ddd!important;
+}
+
+body.light-mode .desc{
+color:#333!important;
+}
+
+body.light-mode .nav-btn,
+body.light-mode .comment-toggle,
+body.light-mode .search-popup,
+body.light-mode .search-form input,
+body.light-mode .search-reset{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .title{
+color:#c00000!important;
+}
+
+
+/* =====================
+   VIEW REPAIR
+===================== */
+body.light-mode .header{
+background:#fff!important;
+box-shadow:0 0 14px rgba(192,0,0,.25)!important;
+}
+
+body.light-mode .post-card{
+background:#fff!important;
+color:#111!important;
+border-color:#ddd!important;
+}
+
+body.light-mode .post-title{
+color:#c00000!important;
+}
+
+body.light-mode .post-content{
+color:#333!important;
+}
+
+body.light-mode .comment-box{
+background:#fff!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode textarea{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ccc!important;
+}
+
+body.light-mode .header .nav a{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode .header .nav a:hover{
+background:#ffecec!important;
+color:#c00000!important;
+border-color:#c00000!important;
+}
+
+body.light-mode .ecu-lock-btn{
+background:#f3f3f3!important;
+color:#c00000!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .ecu-download-btn{
+background:#c00000!important;
+color:#fff!important;
+border:1px solid #c00000!important;
+}
+
+body.light-mode footer{
+background:#fff!important;
+color:#666!important;
+border-top:1px solid #ddd!important;
+}
+/* =====================
+   AI ECU
+===================== */
+
+body.light-mode .ai-page{
+background:#f4f4f4!important;
+color:#111!important;
+}
+
+body.light-mode .ai-box{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:0 0 12px rgba(0,0,0,.08)!important;
+}
+
+body.light-mode .ai-body,
+body.light-mode .ai-top{
+background:#fff!important;
+color:#111!important;
+border-color:#ddd!important;
+}
+
+body.light-mode .ai-title{
+color:#c00000!important;
+}
+
+body.light-mode .ai-desc,
+body.light-mode .note{
+color:#333!important;
+}
+
+body.light-mode .home-btn,
+body.light-mode .quick button{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode #chat{
+background:#f7f7f7!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode #chat .msg,
+body.light-mode .msg{
+color:#111!important;
+}
+
+body.light-mode #chat .msg.bot,
+body.light-mode .msg.bot,
+body.light-mode .bot{
+background:#fff!important;
+color:#111!important;
+border-left:4px solid #c00000!important;
+}
+
+body.light-mode #chat .msg.user,
+body.light-mode .msg.user,
+body.light-mode .user{
+background:#ffecec!important;
+color:#111!important;
+border:1px solid #f0b0b0!important;
+}
+
+body.light-mode .input-row textarea,
+body.light-mode textarea#question{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ccc!important;
+}
+
+body.light-mode .input-row textarea::placeholder,
+body.light-mode textarea#question::placeholder{
+color:#777!important;
+}
+
+body.light-mode .input-row button{
+background:#c00000!important;
+color:#fff!important;
+border:1px solid #c00000!important;
+}
+
+/* =====================
+   ECU FILES
+===================== */
+
+body.light-mode .file-card{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:0 0 12px rgba(0,0,0,.06)!important;
+}
+
+body.light-mode .file-title{
+color:#c00000!important;
+}
+
+body.light-mode .file-info{
+color:#666!important;
+}
+
+body.light-mode .file-box{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .file-left{
+background:transparent!important;
+color:#111!important;
+}
+
+body.light-mode .file-icon{
+background:#eee!important;
+color:#111!important;
+}
+
+body.light-mode .file-name{
+color:#111!important;
+}
+
+body.light-mode .file-size{
+color:#666!important;
+}
+
+body.light-mode .download-btn{
+background:#f3f3f3!important;
+color:#c00000!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .download-btn:hover{
+background:#ffecec!important;
+color:#c00000!important;
+border-color:#c00000!important;
+}
+
+/* =====================
+   SPORT
+===================== */
+
+body.light-mode .hero{
+background:#fff!important;
+color:#111!important;
+}
+
+body.light-mode .hero h1{
+color:#c00000!important;
+}
+
+body.light-mode .hero p{
+color:#333!important;
+}
+
+body.light-mode .container{
+background:#f4f4f4!important;
+}
+
+body.light-mode .card{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:0 0 12px rgba(0,0,0,.06)!important;
+}
+
+body.light-mode .card h2{
+color:#c00000!important;
+}
+
+body.light-mode .card p{
+color:#333!important;
+}
+
+body.light-mode .sport-box{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .sport-box h3{
+color:#c00000!important;
+}
+
+body.light-mode .sport-box p{
+color:#333!important;
+}
+
+body.light-mode .badge{
+background:#c00000!important;
+color:#fff!important;
+}
+
+body.light-mode .header .nav a{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode footer{
+background:#fff!important;
+color:#666!important;
+border-top:1px solid #ddd!important;
+}
+/* =====================
+   FIGHTER
+===================== */
+
+body.light-mode .header{
+background:#fff!important;
+color:#111!important;
+}
+
+body.light-mode .header .nav a{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .hero{
+background:#fff!important;
+color:#111!important;
+}
+
+body.light-mode .hero h1{
+color:#c00000!important;
+}
+
+body.light-mode .hero p{
+color:#333!important;
+}
+
+body.light-mode .hero-badge{
+background:#c00000!important;
+color:#fff!important;
+}
+
+body.light-mode .container{
+background:#f4f4f4!important;
+}
+
+body.light-mode .profile-card,
+body.light-mode .card{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:0 0 12px rgba(0,0,0,.06)!important;
+}
+
+body.light-mode .profile-card h2,
+body.light-mode .card h2{
+color:#c00000!important;
+}
+
+body.light-mode .profile-card p,
+body.light-mode .card p,
+body.light-mode .info-list{
+color:#333!important;
+}
+
+body.light-mode .info-list b{
+color:#111!important;
+}
+
+body.light-mode .box{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .box h2{
+color:#c00000!important;
+}
+
+body.light-mode .box h3{
+color:#111!important;
+}
+
+body.light-mode .box p{
+color:#333!important;
+}
+
+body.light-mode footer{
+background:#fff!important;
+color:#666!important;
+border-top:1px solid #ddd!important;
+}
+
+/* =====================
+   DASHBOARD
+===================== */
+
+body.light-mode .header{
+background:#fff!important;
+color:#111!important;
+box-shadow:0 0 14px rgba(192,0,0,.18)!important;
+}
+
+body.light-mode .user-menu{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .user-name{
+color:#111!important;
+}
+
+body.light-mode .user-role{
+color:#666!important;
+}
+
+body.light-mode .dropdown-menu{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:0 0 18px rgba(0,0,0,.12)!important;
+}
+
+body.light-mode .dropdown-profile h3{
+color:#c00000!important;
+}
+
+body.light-mode .dropdown-profile p{
+color:#666!important;
+}
+
+body.light-mode .dropdown-links a{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .dropdown-links a:hover{
+background:#ffecec!important;
+color:#c00000!important;
+border-color:#c00000!important;
+}
+
+body.light-mode .hero-panel,
+body.light-mode .stat-card,
+body.light-mode .section,
+body.light-mode .order-card,
+body.light-mode .notification-item,
+body.light-mode .post-card,
+body.light-mode .comment-item,
+body.light-mode .modal{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:0 0 12px rgba(0,0,0,.06)!important;
+}
+
+body.light-mode .hero-panel h1,
+body.light-mode .section h2,
+body.light-mode .stat-card h2,
+body.light-mode .order-title,
+body.light-mode .notification-title,
+body.light-mode .post-title,
+body.light-mode .comment-name,
+body.light-mode .modal h3{
+color:#c00000!important;
+}
+
+body.light-mode .hero-panel p,
+body.light-mode .stat-card p,
+body.light-mode .order-date,
+body.light-mode .order-info,
+body.light-mode .notification-message,
+body.light-mode .notification-date,
+body.light-mode .post-desc,
+body.light-mode .post-meta,
+body.light-mode .comment-date,
+body.light-mode .comment-text,
+body.light-mode .empty{
+color:#333!important;
+}
+
+body.light-mode .action-btn.dark{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .action-btn.dark:hover{
+background:#ffecec!important;
+color:#c00000!important;
+border-color:#c00000!important;
+}
+
+body.light-mode .order-btn.dark{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .form-row input{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ccc!important;
+}
+
+body.light-mode .footer{
+background:#fff!important;
+color:#666!important;
+border-top:1px solid #ddd!important;
+}
+
+
+/* =====================
+   PANDUAN READ WRITE ECU
+===================== */
+
+body.light-mode .back{
+background:#f3f3f3!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode .back:hover{
+background:#ffecec!important;
+color:#c00000!important;
+border-color:#c00000!important;
+}
+
+body.light-mode .banner{
+background:#fff!important;
+border:1px solid #ddd!important;
+box-shadow:0 0 12px rgba(0,0,0,.06)!important;
+}
+
+body.light-mode .step{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode .step-content h3{
+color:#c00000!important;
+}
+
+body.light-mode .step-content p{
+color:#333!important;
+}
+
+body.light-mode .num{
+background:#c00000!important;
+color:#fff!important;
+}
+
+body.light-mode .warning{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .warning ul,
+body.light-mode .warning li{
+color:#333!important;
+}
+
+body.light-mode .safe-box{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .cta{
+background:#fff!important;
+}
+
+body.light-mode .btn{
+background:#c00000!important;
+color:#fff!important;
+border:1px solid #c00000!important;
+}
+
+/* =====================
+   PANDUAN REMAP ORDER
+===================== */
+
+body.light-mode .header-title{
+color:#c00000!important;
+}
+
+body.light-mode .info-grid{
+background:transparent!important;
+}
+
+body.light-mode .info-box{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode .info-box b{
+color:#c00000!important;
+}
+
+body.light-mode .step-list{
+background:transparent!important;
+}
+
+body.light-mode .step{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode .step-num{
+background:#c00000!important;
+color:#fff!important;
+}
+
+body.light-mode .step-body h3{
+color:#c00000!important;
+}
+
+body.light-mode .step-body p{
+color:#333!important;
+}
+
+body.light-mode .warn{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .warn ul,
+body.light-mode .warn li{
+color:#333!important;
+}
+
+body.light-mode .cta-wrap{
+background:#fff!important;
+}
+
+body.light-mode .cta-btn{
+background:#c00000!important;
+color:#fff!important;
+border:1px solid #c00000!important;
+box-shadow:none!important;
+}
+
+body.light-mode .footer-note{
+background:#fff!important;
+color:#666!important;
+border-top:1px solid #ddd!important;
+}
+
+/* =====================
+   REMAP ECU
+===================== */
+
+body.light-mode .price-box{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode .price-box span{
+color:#666!important;
+}
+
+body.light-mode .price-box b{
+color:#00a84f!important;
+}
+
+body.light-mode .service-grid{
+background:transparent!important;
+}
+
+body.light-mode .service-box{
+background:#f8f8f8!important;
+color:#111!important;
+border:1px solid #ddd!important;
+box-shadow:none!important;
+}
+
+body.light-mode .service-box b{
+color:#111!important;
+}
+
+body.light-mode .card ul,
+body.light-mode .card li{
+color:#333!important;
+}
+
+body.light-mode #orderForm .card{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ddd!important;
+}
+
+body.light-mode .form-group label{
+color:#111!important;
+}
+
+body.light-mode .form-group input,
+body.light-mode .form-group textarea{
+background:#fff!important;
+color:#111!important;
+border:1px solid #ccc!important;
+}
+
+body.light-mode .form-group input::placeholder,
+body.light-mode .form-group textarea::placeholder{
+color:#777!important;
+}
+
+body.light-mode .note{
+color:#666!important;
+}
+
+body.light-mode .continue-btn,
+body.light-mode .submit-btn{
+background:#c00000!important;
+color:#fff!important;
+border:1px solid #c00000!important;
+box-shadow:none!important;
+}
+
+body.light-mode .top-maintenance{
+background:#fff3cd!important;
+color:#664d03!important;
+border:1px solid #ffecb5!important;
+}
+
+body.light-mode .alert-success{
+background:#e8fff0!important;
+color:#006b2e!important;
+border:1px solid #9ee6b8!important;
+}
+
+body.light-mode .alert-error{
+background:#ffecec!important;
+color:#c00000!important;
+border:1px solid #f3b1b1!important;
+}
