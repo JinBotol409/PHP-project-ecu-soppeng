@@ -69,7 +69,7 @@ merchantCode=D4&amount=10000&merchantOrderId=REMAP201780818302&productDetail=Rem
 POST:
 Array
 (
-    [merchantCode] => D22874
+    [merchantCode] => D
     [amount] => 10000
     [merchantOrderId] => REMAP211780848181
     [productDetail] => Remap ECU IDSREPAIR
